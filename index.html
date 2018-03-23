@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> <!-- 폰트어웨이섬 코드 -->
+    <script src="js/mobile.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <title>모바일 사이트</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="headerIn">
+                <div class="navi"> <!-- 오픈메뉴버튼 -->
+                    <a href="#"><span class="fas fa-bars"></span></a> <!-- 어웨이섬폰트를 넣기위해 스팬을 비워둔다 --> <!--  크기는 폰트사이즈로 -->
+                </div>
+                <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>  <!-- 로고 -->
+                <div class="search">  <!-- 서치 -->
+                    <a href="#"><span class="fas fa-search"></span></a>
+                </div>
+            </div>
+            <nav id="gnb">
+                <ul>
+                    <li><a href="#">Real Madrid</a>
+                        <ul class="depth2">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자유게시판</a></li>
+                            <li><a href="#">응원가</a></li>
+                            <li><a href="#">서포터즈</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">구단소개</a>
+                        <ul class="depth2">
+                            <li><a href="#">구단주</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">엠블럼</a></li>
+                            <li><a href="#">유니폼</a></li>
+                            <li><a href="#">클럽소개</a></li>
+                            <li><a href="#">후원사</a></li>                            
+                        </ul>
+                    </li>
+                    <li><a href="#">선수단</a>
+                        <ul class="depth2">
+                            <li><a href="#">선수소개</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">매치센터</a>
+                        <ul class="depth2">
+                            <li><a href="#">경기일정</a></li>
+                            <li><a href="#">구단기록</a></li>
+                            <li><a href="#">개인기록</a></li>                          
+                        </ul>
+                    </li>
+                    <li><a href="#">미디어</a>
+                        <ul class="depth2">
+                            <li><a href="#">구단뉴스</a></li>
+                            <li><a href="#">구단영상</a></li>
+                            <li><a href="#">구단사진</a></li>                            
+                        </ul>
+                    </li>
+                    <li><a href="#">유소년</a>
+                        <ul class="depth2">
+                            <li><a href="#">U-18</a></li>
+                            <li><a href="#">U-15</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">주주관리</a>
+                        <ul class="depth2">
+                            <li><a href="#">주주확인</a></li>
+                            <li><a href="#">주주게시판</a></li>                            
+                        </ul>
+                    </li>
+                    <li><a href="#">Quick Menu</a>
+                        <ul class="depth2">
+                            <li><a href="#">Real Madrid 쇼핑몰</a></li>
+                            <li><a href="#">서포터즈</a></li>                            
+                        </ul>
+                    </li>
+                    <li class="logi">LOGIN</li>                  
+                    <li><a href="#">JOIN</a></li>
+                    <li><a href="#">SITEMAP</a></li>
+                </ul>  <!-- 1단 -->
+            </nav>
+            <div id="SearchBar">
+                <input type="search" name"sch" id="sch" placeholder="Search...">
+            </div>
+
+        </header>
+        <main>
+            <div id="mainVisual">
+                <a href="#"></a> 
+                <p>BEYOND SPAIN</p>
+                <p>REAL MADRID FOOTBALL CLUB</p>   
+            </div>
+            <div id="sche">
+                <div class="more1">
+                    <p>SCHEDULE</p>
+                    <a href="#">MORE ></a>
+                </div>
+                <div class="vs">
+                    <div class="ma1">
+                        <div class="img1">
+                            <img src="img/madrid.png" alt="">
+                            <img src="img/villareal.png" alt="">
+                        </div>
+                        <div class="vs1">
+                            <p>Real Madrid</p>
+                            <p>vs</p>
+                            <p>Villar Real</p>
+                        </div>
+                        <div class="day1">
+                            <p>Jan. 10</p>
+                            <p>21:30H</p>
+                            <p>Santiago Bernabéu<br>Por: beIN LaLiga</p>
+                        </div>
+                    </div>     
+                    <div class="ma2">
+                        <div class="img2">
+                            <img src="img/madrid.png" alt="">
+                            <img src="img/barcelona.png" alt="">
+                        </div>
+                        <div class="vs2">
+                            <p>Real Madrid</p>
+                            <p>vs</p>
+                            <p>FC Barcelona</p>
+                        </div>
+                        <div class="day2">
+                            <p>Jan. 16</p>
+                            <p>22:30H</p>
+                            <p>Santiago Bernabéu<br>Por: beIN LaLiga</p>
+                        </div>
+                    </div>   
+                    <div class="ma3">
+                        <div class="img3">
+                            <img src="img/madrid.png" alt="">
+                            <img src="img/atletico.png" alt="">
+                        </div>
+                        <div class="vs3">
+                            <p>Real Madrid</p>
+                            <p>vs</p>
+                            <p>Atletico Madrid</p>
+                        </div>
+                        <div class="day3">
+                            <p>Jan. 21</p>
+                            <p>17:30H</p>
+                            <p>Santiago Bernabéu<br>Por: beIN LaLiga</p>
+                        </div>
+                    </div>         
+                </div>
+            </div><!-- id sche -->
+            <div id="rank">
+                <div class="more2">
+                    <p>TEAM RANKING</p>
+                    <a href="#">MORE ></a>
+                </div>
+                <div class="line">
+                    <ul>
+                        <li>순위</li>
+                        <li>팀</li>
+                        <li>승점</li>
+                        <li>승</li>
+                        <li>무</li>
+                        <li>패</li>
+                    </ul>
+                </div>
+                <div class="back">
+                    <img src="img/back.png" alt="">
+                </div>
+                <div class="teamr">
+                    <div class="r1">
+                        <ul>
+                            <li>1</li>
+                            <li><img src="img/barcelona.png" alt=""></li>    
+                            <li>Barcelona</li>                       
+                            <li>48</li>
+                            <li>15</li>
+                            <li>3</li>
+                            <li>0</li>
+                        </ul>
+                    </div>
+                    <div class="r2">
+                        <ul>
+                            <li>2</li>
+                            <li><img src="img/atletico.png" alt=""></li>       
+                            <li>Atletico M</li>                    
+                            <li>39</li>
+                            <li>11</li>
+                            <li>6</li>
+                            <li>1</li>
+                        </ul>
+                    </div>
+                    <div class="r3">
+                        <ul>
+                            <li>3</li>
+                            <li><img src="img/val.png" alt=""></li>    
+                            <li>Valencia</li>                       
+                            <li>37</li>
+                            <li>11</li>
+                            <li>4</li>
+                            <li>3</li>
+                        </ul>
+                    </div>
+                    <div class="r4">
+                        <ul>
+                            <li>4</li>
+                            <li><img src="img/madrid.png" alt=""></li>
+                            <li>Real Madrid</li>                           
+                            <li>32</li>
+                            <li>9</li>
+                            <li>5</li>
+                            <li>3</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="vid">
+                <div class="more3">
+                    <p>HIGHLIGHT VIDEO</p>                  
+                </div>
+            <div id="choice">
+                <select class="selbox" onchange="setSelectText('searchSubCate',this)">
+                    <option value="show1">C.RONALDO INTERVIEW</option>
+                    <option value="show2">C.RONALDO CELEBRATION</option>
+                    <option value="show3">ISCO GOAL & DRIBBLE</option>
+                </select>
+                <div class="showpic">
+                    <div id="show1" class="mm">
+                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/FSg23JygRTw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div id="show2" class="mm">
+                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/NqRnkuGsEmc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div id="show3" class="mm">
+                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/qInPY9XrLUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>                    
+                </div>
+            </div>
+            </div>
+            
+            <div id="new">
+                <div class="more4">
+                    <p>NEWS</p>
+                    <a href="#">MORE ></a>
+                </div>
+                <div class="ro">
+                    <img src="img/ronal.png" alt="">
+                    <p><a href="#">호날두 “5번째 발롱도르 수상 감사드<br>
+                       린다”앞으로도 더욱 열심히 뛰겠다”</a></p>
+                    <p><a href="#">호날두는 23일(한국시각) 프랑스 파리에서 열린 2017년<br>
+                       발롱도르 시상식에서 후보 30인 중 득표 점수 무려 74 .. </a></p>
+                    <p>2017  12. 24</p>   
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="foot1">
+                <img src="img/flogo.png" alt="">
+                <p>PALMARES DEL REAL MADRID</p>
+                <div class="tro">
+                    <img src="img/tro.png" alt="">
+                    <ul>
+                        <li>Supercopas de<br>
+                                Europa</li>
+                        <li>Copas de la<br> 
+                                UEFA</li>  
+                        <li>Ligas</li>    
+                        <li>Copas del Rey</li>          
+                    </ul>
+                    <ul>
+                        <li>19</li>
+                        <li>33</li>
+                        <li>2</li>
+                        <li>4</li>
+                    </ul>
+                </div>
+            </div> 
+            <div id="foot2">
+                <div class="fsns">
+                    <ul>
+                        <li><a href="#"><img src="img/face.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/goo.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/mail.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/twi.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/ins.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/in.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/p.png" alt=""></a></li> 
+                    </ul>
+                </div>
+            </div>
+            <div class="ffon">
+                    <ul>
+                        <li>FUTBOL</li>
+                        <li>BALONCESTO</li> 
+                        <li>AFICION</li>
+                        <li>RMTV</li>                       
+                    </ul>
+                    <div class="depth3">
+                        <ul>
+                            <li>Partidos</li>
+                            <li>Videos</li>
+                            <li>Noticias</li>   
+                            <li>Fotos</li>
+                            <li>Plantilla</li>
+                            <li>Cantera</li>
+                            <li>Veteranos</li>
+                        </ul>
+                        <ul>
+                            <li>Partidos</li>
+                            <li>Noticias</li>
+                            <li>Videos</li>   
+                            <li>WiZink Center</li>
+                            <li>Fotos</li>
+                            <li>Plantilla</li>
+                            <li>Cantera</li>
+                        </ul>
+                        <ul>
+                            <li>Videos</li>
+                            <li>Fotos</li>
+                            <li>Penas</li>   
+                            <li>Redes sociales</li>
+                            <li>Juegos</li>
+                            <li>Wallpapers</li>
+                            <li>Publicaciones</li>                                    
+                        </ul>
+                        <ul>
+                            <li>RMTV en</li>
+                            <li>Codigo de RMTV</li>                                                            
+                        </ul>                        
+                    </div>
+                </div>
+            <div id="foot4">
+                <div class="line2"></div>
+                <div class="llogo">
+                    <img src="img/flogo.png" alt="">
+                </div>
+                <div class="spon">
+                    <img src="img/spon.png" alt="">
+                </div>                
+            </div>
+            <div id="last">
+                <p>PROPIAS Y DE TERCEROS PARA REALIZAR ANALISIS DE USO Y <br>
+                    DE MEJ ORAR NUEST ROS SERVICIOS</p>
+                <p>Si continuas navegando, consideramos que aceptas el uso de cookies</p>        
+            <div class="box1">
+                <p><a href="#">SI, ACEPTO</a></p>
+            </div>    
+
+            </div>
+          
+        </footer>
+    </div>
+</body>
+<script>
+$(".search>a").click(function(){
+    $("#SearchBar").slideToggle("600","easeOutBounce");
+    return false;
+});
+
+$(".navi>a").click(function(){
+    var poi = $("#gnb").css("display");
+    if(poi == "none"){
+        $("#gnb").show(100).animate({left:"0"});
+    }else if(poi == "block"){
+        $("#gnb").animate({left:"-100%"});
+        $("#gnb").fadeOut(300);
+        $(".depth2").slideUp();
+    }
+    return false;
+});
+
+
+    $("#gnb>ul>li>a").click(function(){
+       var dis = $(this).siblings(".depth2");
+       var two = dis.css("display");
+
+       if(two == "none"){ 
+           $(".depth2").slideUp(); 
+           dis.slideDown(); // dis => display: block;         
+        }else if(two == "block"){
+            dis.slideUp();
+        }
+        return false;
+    });
+
+$(".btn>span.good").click(function(){   /* 좋아요 버튼 */
+    $(this).toggleClass("red");
+    return false;
+
+});
+
+$(".selbox").change(function(){
+    $(".mm").hide(); // 현재 선택한 옵션 메뉴를 제외하고 다른 나머지 메뉴는 사라진다. 
+    $("#"+$(this).val()).show(); // 내가 선택한 옵션메뉴에 관련되는 value의 값과 일치하는 아이디 명을 가지고 있는 메뉴만 나타내도록 해주는 구성
+});
+
+$('.logi').contents().wrap('<a href="index2.html" class="logi_link"></a>');
+</script>
+</html>

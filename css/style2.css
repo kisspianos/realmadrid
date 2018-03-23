@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+#wrap{
+    width: 100%;    
+}
+body{
+    background: rgb(37, 37, 37);
+}
+
+header, main, footer{
+    position: relative;
+    width: 100%;
+}
+
+#headerIn{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #141715;
+}
+
+.navi, .search{
+    position: relative;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.navi{
+    left: 5px;
+}
+
+.search{
+    right: 10px;
+}
+
+.navi>a .search>a{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.navi span, .search span{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+.fa-bars, .fa-search{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+}
+
+.logo{
+    width: 40px;
+    height: 50px;
+}
+
+.logo>a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 50px;    
+    z-index: 9999;
+}
+.logo img{
+    position: relative;
+    left: 3px;
+    top: 8px;
+    width: 35px;
+    height: 49px;
+}
+
+#gnb{
+    position: fixed;
+    left: -100%;  /* 네비게이션을 왼쪽으로 숨긴다 */
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.95);
+    display: none;
+    z-index: 99;
+}
+
+#gnb>ul>li>a{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    top: 5px;
+    padding: 12px 0;
+    color: #fff;
+    text-align: center;
+}
+#gnb>ul>li:nth-child(8) a{
+    color: #dd713b;
+}
+
+#gnb>ul>li>a:after{
+    /* content:"▼"; */
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.depth2 a{
+    display: block;
+    padding: 8px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.depth2{
+    display: none;
+}
+#SearchBar{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #141715;
+    display: none;
+}
+
+#sch{
+    position: relative;
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    top: 5px;
+    background: rgba(255,255,255,0.8);
+    color: blue;
+}
+
+/* 메인css */
+
+.box1{
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+}
+.box1>p{
+    position: relative;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.login{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 550px;
+    background: #fff;
+}
+.log{
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid #000;
+    width: 80%;    
+}
+.log>img{
+    width: 30px;
+    height: 40px;
+    padding: 10px;
+}
+.log>p{
+    position: relative;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+.search1{
+    position: relative;  
+    top: -150px;
+    margin: 0 auto;
+    width: 80%;
+}
+#search1{
+    position: relative;
+    top: -250px;
+    background: rgb(233, 233, 233);
+    width: 100%;
+    height: 50px;
+}
+.search2{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+
+}
+#search2{
+    position: relative;
+    top: -235px;
+    background: rgb(233, 233, 233);
+    width: 100%;
+    height: 50px;
+}
+.box2{
+    position: relative;
+    top: -220px;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background: #000;
+}
+.box2>p>a{
+    position: relative;
+    top: 16px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+.box2:hover{
+    background: #dd713b;
+}
+.line{
+    position: relative;
+    top: -190px;
+    margin: 0 auto;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.mem{
+    position: relative;
+    top: -180px;
+    border-bottom: 3px solid #000;
+    width: 100%;
+    height: 200px;
+}
+.gray{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background: rgb(133, 133, 133);
+}
+.gray>p>a{
+    position: relative;
+    top: 16px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+}
+.oran{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background: #dd713b;
+}
+.oran>p>a{
+    position: relative;
+    top: 16px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+}
+.mem>p{
+    color: #666;
+    padding: 8px 0;
+}
+.gray:hover{
+    background: #161616;
+}
+.oran:hover{
+    background: #161616;
+}
+.fo1{
+    position: relative;
+    top: -130px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+}
+.fo1>p{
+    font-size: 12px;
+    text-align: center;
+    width: 150px;
+    /* border: 1px solid gold; */
+    border-right: 1px solid #ccc;
+}
+.fo1>p:nth-child(1){
+    width: 160px;
+}
+.fo1>p:nth-child(2){
+    width: 90px;
+}
+.fo1>p:nth-child(3){
+    border-right: 0;
+}
+.fo2{
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgb(117, 117, 117);
+}
+.fo2>p{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+    text-align: start;
+    width: 100px;
+
+}
+.fo2>p:nth-child(3){
+    width: 150px;
+}
+.fo2>p:nth-child(2){
+    color: #dd713b;
+}
+
+
+
+
+}
+.conts{
+    display: none;
+}
